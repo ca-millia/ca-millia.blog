@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = " Camillia' HOME";
+import portrait from '../images/portrait.jpg';
 ---
 <BaseLayout pageTitle={pageTitle}>
   <div class="post_title" style="text-align: center;">
@@ -9,7 +10,7 @@ const pageTitle = " Camillia' HOME";
   <div style="height: 3rem;"></div>
   <div class="post_content">
     <div class="content_portrait">
-      <img src="src/images/portrait.jpg" alt="头像" width="150" height="150" style="border-radius: 50%; object-fit: cover;border: 2px solid #9e9e9e; ">
+      <img src={portrait.src} alt="头像" width="150" height="150" style="border-radius: 50%; object-fit: cover;border: 2px solid #9e9e9e; ">
     </div>
     <div class="content_intro">
       <p style=" font-size:larger; ">¡Hola，这里是<span class="enphasize">camillia</span>！🌻🥕🐖</p>

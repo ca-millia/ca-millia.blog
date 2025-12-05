@@ -2,7 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "ABOUT Camillia";
 
-const habits = ["阅读","看日落"];
+const hobbis = ["阅读","看日落"];
 ---
 <BaseLayout pageTitle={pageTitle}>
 	<h2>Intro</h2>
@@ -15,6 +15,6 @@ const habits = ["阅读","看日落"];
 	<ul>
 		<li><a href="https://camilliablog.netlify.app/">搭建博客</a></li>
 	</ul>
-	<h2>Habits</h2>
-	<ul>{habits.map((habit) => <li class="skill">{habit}</li>)}</ul>
+	<h2>Hobbis</h2>
+	<ul>{hobbis.map((hobby) => <li class="hobby">{hobby}</li>)}</ul>
 </BaseLayout>
