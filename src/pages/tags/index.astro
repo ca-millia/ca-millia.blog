@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 const allPosts = Object.values(import.meta.glob('../posts/*.md', { eager: true }));
 const tags = [...new Set(allPosts.map((post: any) => post.frontmatter.tags).flat())];
-const pageTitle = "标签索引";
+const pageTitle = "Camillia' TAGS";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
@@ -17,6 +17,13 @@ const pageTitle = "标签索引";
   a {
     color: #00539F;
   }
+
+  a{
+  text-decoration: none;        /* 去掉下划线 */       
+  color: #0d0950;      /* 可以换成你的主题色 */
+  font-weight: 500; 
+}
+
 
   .tags {
     display: flex;
