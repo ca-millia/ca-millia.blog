@@ -1,5 +1,4 @@
 ---
-import Social from './Social.astro';
 ---
 
 <style>
@@ -7,10 +6,13 @@ import Social from './Social.astro';
         display: flex;
         gap: 1rem;
         margin-top: 2rem;
+        align-items: center; /* 纵向对齐到中线 */
+        justify-content: center;  /* 水平居中 */
     }
 </style>
-<footer>
-    <Social platform="twitter" username="astrodotbuild" />
-    <Social platform="github" username="withastro" />
-    <Social platform="youtube" username="astrodotbuild" />
+<footer>   
+    <p style="color:#cccccc;">Made with <span style="font-style: oblique;">Astro</span>, hosted on <span style="font-style: oblique;">Netlify</span>.</p>
+    <a href="https://github.com/ca-millia">联络</a>
+    <span>|</span>
+    <a href="/rss.xml">订阅</a>
 </footer>

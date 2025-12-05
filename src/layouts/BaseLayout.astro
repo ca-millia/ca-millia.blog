@@ -16,9 +16,9 @@ const { pageTitle } = Astro.props;
 	</head>
 	<body>
 		<Header></Header>
-		<h1>{pageTitle}</h1>
-		<h1>welcome to my westland</h1>
-        <slot></slot>
+        <main class="page-main">
+    		<slot></slot>
+		</main>
 		<Footer></Footer>
 		<script>
 			import "../scripts/menu.js";

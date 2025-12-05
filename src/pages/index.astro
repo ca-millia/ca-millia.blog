@@ -1,7 +1,40 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-const pageTitle = "首页";
+const pageTitle = " Camillia' HOME";
 ---
 <BaseLayout pageTitle={pageTitle}>
-  <h2>我超棒的博客副标题</h2>
+  <div class="post_title" style="text-align: center;">
+    <h1 class="title">Rincón de la Camellia</h1>
+  </div>
+  <div style="height: 3rem;"></div>
+  <div class="post_content">
+    <div class="content_portrait">
+      <img src="src/images/portrait.jpg" alt="头像" width="150" height="150" style="border-radius: 50%; object-fit: cover;border: 2px solid #9e9e9e; ">
+    </div>
+    <div class="content_intro">
+      <p style=" font-size:larger; ">¡Hola，这里是<span class="enphasize">camillia</span>！🌻🥕🐖</p>
+      <p class="quato">我们这一生，唯有文字能担此重任，宣告生命曾经在场。</p>
+      <p>此地正式诞生于<span style="font-style: oblique;">2025-12-05</span>，主要用来 <strong>知识分享/个人记录/文章创作</strong></p>
+      <p>感兴趣的话，也可以看看我的公众号： <span class="enphasize">山石石山不知山</span> </p>
+    </div>
+  </div>
+  <div style="height: 12rem;"></div>  
+
+  <style>
+  /* 使用Grid布局 */
+  .post_content {
+    display: grid;
+    grid-template-columns: auto 1fr; /* 第一列自适应，第二列填充剩余 */
+    gap: 20px;                      /* 列间距 */
+    align-items: center;            /* 垂直居中 */
+  }
+
+  /* 小屏幕时变成上下布局 */
+  @media (max-width: 520px) {
+    .post_content {
+      grid-template-columns: 1fr;   /* 单列布局 */
+      justify-items: center;        /* 水平居中 */
+    }
+  }
+  </style>
 </BaseLayout>
