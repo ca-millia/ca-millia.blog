@@ -25,6 +25,8 @@ tags: ["碎碎念","项目记录"]
 我将额外附上每一主题我使用的材料。
 用过字母顺序/乱序的单词书，但是还是记不住，最后在朋友的推荐下试了一下“不背单词”这一软件，打开了这本单词书，才猛地意识到我不能合理运用这些词汇，在于我都是断开的。
 
+离开音标寸步难行，故练习拼读能力：学习<a herf="https://www.bilibili.com/video/BV1SN411B7ok/?spm_id_from=333.337.search-card.all.click&vd_source=df06049d05b00776488d26321b357795">自然拼读</a>ing + <a herf="https://www.bilibili.com/video/BV14b421Y7Jt?spm_id_from=333.788.player.switch&vd_source=df06049d05b00776488d26321b357795&p=2">sight words</a>洗耳朵
+
 ### chapter1 
 在油管上找到一个很好的视频（适合小朋友看的科普向）<a herf="https://youtu.be/Di5vJwH0VZ8?si=plwqMaUtQWO5JdT3">Crash Course Geography</a> 
 阅读材料：<a herf="https://weread.qq.com/web/reader/1a632f507192ad0e1a61eb1">写给学生的世界地理: A CHILD’S GEOGRAPHY OF THE WORLD(英文版)</a>
