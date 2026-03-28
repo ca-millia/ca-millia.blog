@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: '电脑小白的学习记录'
-pubDate: 21 Dec, 2025
+pubDate: Bec 25, 2025
 tags: ["学习笔记"]
 ---
 

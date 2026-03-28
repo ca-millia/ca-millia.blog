@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Python 学习笔记'
-pubDate: 27 Jan, 2026
+pubDate: Jan 27, 2026
 tags: ["学习笔记"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: '以启山林'
-pubDate: 05 Dec, 2025
+pubDate: Dec 05, 2025
 tags: ["日常生活","碎碎念","项目记录"]
 ---
 
